@@ -1,0 +1,30 @@
+//INPUT
+98
+89
+78
+
+import java.util.*;
+public class condition_elseif{
+  public static void main(String[] args){
+  int marks;
+  System.out.println("Enter your marks: ");
+  Scanner s = new Scanner(System.in);
+  marks=s.nextInt();
+  if(marks>=90 && marks<=100){
+    System.out.println("Your grade is:Outstanding");
+  }
+  else if(marks>=80 && marks<=90){
+    System.out.println("Your grade is:Excellent");
+  }
+  else {
+     System.out.println("Need Improvement");
+  }
+}
+}
+//OUTPUT
+Enter your marks: 
+Your grade is:Outstanding
+Enter your marks: 
+Your grade is:Excellent
+Enter your marks: 
+Need Improvement
